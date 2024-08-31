@@ -2,7 +2,7 @@
 ---@field triggers {mappings: wk.Mapping[], modes: table<string,boolean>}
 local M = {}
 
-M.version = "3.13.2" -- x-release-please-version
+M.version = "3.13.3" -- x-release-please-version
 
 ---@class wk.Opts
 local defaults = {
@@ -29,7 +29,7 @@ local defaults = {
   -- Check the docs for more info.
   ---@type wk.Spec
   triggers = {
-    { "<auto>", mode = "nxso" },
+    { "<auto>", mode = "nxsot" },
   },
   -- Start hidden and wait for a key to be pressed before showing the popup
   -- Only used by enabled xo mapping modes.
